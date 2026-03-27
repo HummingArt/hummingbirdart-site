@@ -25,13 +25,7 @@ header {
   background: rgba(5,6,10,0.7);
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
-.header-logo {
-  height: 42px;
-  width: auto;
-  border-radius: 6px;
-  object-fit: contain;
-  margin-right: 10px;
-}
+
 .nav {
   max-width: 1100px;
   margin: auto;
@@ -41,12 +35,19 @@ header {
   align-items: center;
 }
 
-.logo-mark {
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 20%, #f2b28c, #7fd7c9 60%, #151827);
-  box-shadow: var(--shadow);
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* LOGO IMAGE */
+.header-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 6px;
 }
 
 .logo-text-main {
