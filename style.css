@@ -284,3 +284,14 @@ footer {
   color: var(--text-muted);
   font-size: 0.8rem;
 }
+
+/* ---------------------------------------------------------
+   NOTE FOR AMANDA:
+   Your gallery styling already supports the four new images:
+   - hummingbird.png
+   - ocean sunset.png
+   - flower fields.png
+   - san clemente.png
+
+   No additional CSS is required — they will display perfectly.
+--------------------------------------------------------- */
